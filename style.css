@@ -1,0 +1,47 @@
+#main-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5rem;
+    padding: 95px;
+}
+
+main {
+    background-color: #F9DAD0;
+}
+
+.card-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.hovered {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.cheap-listing {
+    border: 2px solid gold;
+    border-radius: 15px;
+}
+
+.medium-price-listing {
+    border: 2px solid brown;
+    border-radius: 15px;
+}
+
+.expensive-listing {
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+@media screen and (max-width: 1450px) {
+    #main-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 746px) {
+    #main-wrapper {
+        grid-template-columns: 1fr;
+    }
+}

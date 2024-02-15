@@ -1,0 +1,56 @@
+#form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 60%;
+    margin: auto;
+    padding: 40px;
+}
+
+input {
+    padding: 0.5rem;
+}
+
+#informational-message {
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.388);
+    color: rgb(255, 0, 0);
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    display: none;
+}
+
+#submit {
+    display: flex;
+    margin: auto;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(50, 206, 50, 0.599);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#submit:hover {
+    background-color: rgb(23, 236, 23);
+}
+
+#home-page {
+    display: flex;
+    margin: auto;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: none;
+    border-radius: 15px;
+    background-color: rgba(103, 143, 212, 0.69);
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+#home-page:hover {
+    background-color: rgb(14, 95, 236);
+}
